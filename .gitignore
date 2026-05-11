@@ -1,4 +1,4 @@
-# Ignorowane pliki binarne i skompilowane
+# Ignore compiled binaries and build artifacts
 *.hex
 *.bin
 *.elf
@@ -8,9 +8,9 @@
 *.a
 *.map
 
-# Foldery budowania (build) tworzone automatycznie
+# Automatically generated build directories
 build/
 .build/
 
-# Pliki konfiguracyjne specyficzne dla lokalnego edytora (np. VS Code)
+# Local editor-specific configuration files (e.g., VS Code)
 .vscode/
