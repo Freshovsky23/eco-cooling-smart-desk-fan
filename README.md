@@ -2,6 +2,18 @@
 
 An intelligent, energy-saving desk fan controller based on Arduino. The system uses a combination of presence detection and contactless temperature measurement to ensure the fan only operates when a user is at the desk and the temperature exceeds a comfortable threshold.
 
+---
+
+## 📺 Project Presentation & Demo
+
+Watch the system in action on YouTube:
+
+[![Eco-Cooling Smart Desk Fan Demo](https://img.shields.io/badge/YouTube-Video_Demo-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/shorts/dt7Fh0QyOb0)
+
+*Click the badge above to watch the project implementation and physical mechanical execution details.*
+
+---
+
 ## 🚀 Features
 * **Smart Activation:** The fan turns on only if motion is detected AND the object temperature is above the defined threshold (default: 26.0°C).
 * **Contactless Temperature Reading:** Uses the MLX90614 IR sensor via the I2C protocol to read object temperature without physical contact.
